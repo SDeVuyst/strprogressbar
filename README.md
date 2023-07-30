@@ -59,7 +59,7 @@ print(p)
 - [add_counter()](#add_counter())
 - [remove_counter()](#remove_counter())
 
-Note that adding percentage or counter does not alter the size of the progress bar. eg. If you set `string_length` to 20 and added a percentage indicator, the progress bar will still be 20 chars long, but with the total string will be longer with the percentage sign. 
+Note that adding percentage or counter does not alter the size of the progress bar. eg: If you set `string_length` to 20 and added a percentage indicator, the progress bar will still be 20 chars long, but the total string will be longer with the percentage sign. 
 
 <h3>add_percentage()</h3>
 <h4>Parameters</h4>
