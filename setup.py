@@ -10,10 +10,10 @@ classifiers = [
 
 setup(
   name='strprogressbar',
-  version='0.1',
+  version='0.2',
   description='',
   url='https://github.com/SDeVuyst/strprogressbar',  
-  download_url='https://github.com/SDeVuyst/strprogressbar/archive/refs/tags/v_0.1.tar.gz',
+  download_url='https://github.com/SDeVuyst/strprogressbar/archive/refs/tags/v_0.2.tar.gz',
   author='SDeVuyst',
   author_email='',  
   license='GNU General Public License v3 (GPLv3)', 
