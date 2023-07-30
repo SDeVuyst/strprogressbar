@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 classifiers = [
-  'Development Status :: 1 - Planning',
+  'Development Status :: 5 - Production/Stable',
   'Intended Audience :: Developers',
   'Operating System :: Microsoft :: Windows :: Windows 10',
   'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
@@ -10,14 +10,15 @@ classifiers = [
 
 setup(
   name='strprogressbar',
-  version='0.0.1',
+  version='0.1',
   description='',
   url='https://github.com/SDeVuyst/strprogressbar',  
+  download_url='https://github.com/SDeVuyst/strprogressbar/archive/refs/tags/v_0.1.tar.gz',
   author='SDeVuyst',
-  author_email='',
+  author_email='',  
   license='GNU General Public License v3 (GPLv3)', 
   classifiers=classifiers,
-  keywords='String Progress Bar', 
+  keywords=['string', 'progressbar', 'progress', 'bar'], 
   packages=find_packages(),
   install_requires=[''] 
 )
