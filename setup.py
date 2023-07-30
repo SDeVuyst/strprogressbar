@@ -10,11 +10,12 @@ classifiers = [
 
 setup(
   name='strprogressbar',
-  version='0.3',
+  version='0.1',
   description='A simple python package to create Progress bars as Strings',
   long_description= open('README.md', encoding="utf8").read(),
+  long_description_content_type='text/markdown',
   url='https://github.com/SDeVuyst/strprogressbar',  
-  download_url='https://github.com/SDeVuyst/strprogressbar/archive/refs/tags/v_0.3.tar.gz',
+  download_url='https://github.com/SDeVuyst/strprogressbar/archive/refs/tags/v_0.1.tar.gz',
   author='SDeVuyst',
   author_email='',  
   license='GNU General Public License v3 (GPLv3)', 
