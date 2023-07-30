@@ -69,9 +69,10 @@ class ProgressBar:
 
         # generate the base progress unfilled_char
         if self.fill_bar:
-            unfilled_char = self.progress_char * (left+1) + self.unfilled_char*right    
+            unfilled_char = (self.progress_char * (left+1))[:left+1] + (self.unfilled_char*right)[:right]
         else:
-            unfilled_char = self.unfilled_char*left + self.progress_char + self.unfilled_char*right
+            offset = round(len(self.progress_char)/2)
+            unfilled_char = (self.unfilled_char*(left-offset))[:left-offset]+ self.progress_char + (self.unfilled_char*(right-offset))[:right-offset]
 
         # add percentage if necessary
         if self.percentage["enabled"]:
